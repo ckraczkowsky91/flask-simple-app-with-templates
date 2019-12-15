@@ -1,7 +1,10 @@
 {% extends 'base.html' %}
 
 {% block content %}
-  <div class=body>
-    <p>...I now live in constant fear.</p>
+  <div class="joke">
+    <p style="color: red">...I now live in constant fear.</p>
+  </div>
+  <div class="link">
+    <a href="{{ url_for('firstPage') }}">What was the setup?</a>
   </div>
 {% endblock %}
